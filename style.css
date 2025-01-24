@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --clr-primary: #050505;
+    --clr-secondary: #62676e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Host Grotesk", serif;
+    max-width: 99.2%;
+}
+
+.flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.vimeo{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--clr-secondary);
+}
+
+.primary {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.secondary {
+    font-size: 15px;
+    color: var(--clr-secondary);
+}
+
+.cursive {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Dancing Script", serif;
+    color: #81d255;
+}
+
+.tartaric {
+    font-size: 40px;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.section {
+  
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 22;
+    background-color: #fff;
+}
+
+nav ul {
+    float: right;
+    margin-right: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 15px;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #81d255;
+    padding: 7px 15px;
+    border: none;
+    color: #fff;
+}
+
+.button:hover,.button-b:hover{
+    background-color:  #46782b;
+}
+
+
+label.logo {
+    line-height: 80px;
+    padding: 0 30px;
+    font-size: 30px;
+}
+#logo{
+   max-width: 55px;
+    height: 35px;
+}
+
+#head{
+    background-image: url("images/5xAkZg9.jpeg");
+    background-size: cover;
+    width: 99%;
+
+    padding: 100px 0;
+}
+
+
+.card {
+    padding: 60px 30px;
+    color: #fff;
+}
+
+#a {
+    background-color: #5acda6;
+}
+
+#b {
+    background-color: #91ac41;
+}
+
+#c {
+    background-color: #e4b476;
+}
+
+#d {
+    background-color: #f69dad;
+}
+
+i{
+    color: #fff;
+}
+
+.btn {
+    background-color: rgb(242, 204, 156);
+    margin: 10px, 20px;
+    border-radius: 50%;
+    padding: 27px;
+    border: none;
+}
+
+#icon {
+    background-color: #fff5f2;
+}
+
+
+.people {
+    background-color: #edf5ff;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px 0 15px 15px;
+}
+
+.people img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.visual img{
+    width: 100%;
+}
+
+#follow{
+   
+left: 700px;
+width: 375px;
+    height: 465px;
+    position: absolute;
+}
+
+.x img{
+    position: relative;
+    width: 375px;
+    height: 465px;
+    opacity: 0.7;
+}
+
+.green {
+    color: rgb(68, 237, 223);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.num {
+    margin: 5px 40px;
+}
+
+#number {
+    background-color: rgb(233, 248, 248);
+}
+
+.input-email {
+    padding: 10px 30px;
+    margin: 0 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.subscribe {
+    color: #fff;
+    background-color: rgb(249, 135, 180);
+    padding: 15px 30px;
+    margin: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.get{
+    width: 90%;
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid #b5b3b3;
+    box-shadow: 3px #a6a5a5;
+
+}
+
+.button-b{
+    float: left;
+    padding: 10px;
+    margin-left: 7px;
+}
+
+.form{
+    margin: 20px;
+    text-align: left;
+}
+
+.information{
+    margin: 20px;
+   text-align: left;
+   margin-left: 40px;
+}
+
+.float{
+    float: left;
+}
+#footer {
+    background-color: #323131;
+    color: #fff;
+    padding: 20px 0;
+}
